@@ -34,7 +34,7 @@ return [
     */
 
     'connections' => [
-
+        'default' => env('DB_CONNECTION', 'mysql'),
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
