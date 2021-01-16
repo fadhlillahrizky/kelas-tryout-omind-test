@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.dashboard');
 });
 
 Route::get('dashboard', 'App\Http\Controllers\AuthController@dashboard');
-Route::get('all-materi', 'App\Http\Controllers\MateriController@getAllMateri');
 Route::get('my-materi', 'App\Http\Controllers\MateriController@getMyMateri');
+Route::post('/add-materi', 'App\Http\Controllers\MateriController@addMateri');
 

@@ -1,13 +1,18 @@
 <div class="sidebar ps-2">
     <img src="../files/assets/image/FA Logo Kelas Tryout_FC Primary (1) 1.png" class="logo">
-    <div class="menu d-flex white mt-4 ms-4">
-        <img src="../files/assets/image/home.svg">
-        <p>Home</p>
-    </div>
-    <div class="menu d-flex white mt-4 ms-4">
-        <img src="../files/assets/image/materi.svg">
-        <p>Materi</p>
-    </div>
+    <a href="{{url('dashboard')}}">
+        <div class="menu d-flex white mt-4 ms-4">
+            <img src="../files/assets/image/home.svg">
+            <p>Home</p>
+        </div>
+    </a>
+
+    <a href="{{url('my-materi')}}">
+        <div class="menu d-flex white mt-4 ms-4">
+            <img src="../files/assets/image/materi.svg">
+            <p>Materi</p>
+        </div>
+    </a>
     <div class="menu d-flex white mt-4 ms-4">
         <img src="../files/assets/image/tryout.svg">
         <p>Tryout</p>

@@ -1,3 +1,5 @@
+@import "./materi.css";
+
 *{
   padding: 0;
   margin: 0;
@@ -71,7 +73,6 @@ p {
 
 .sub-materi {
   width: 229px;
-  height: 102px;
   border-radius: 5px;
 }
 
